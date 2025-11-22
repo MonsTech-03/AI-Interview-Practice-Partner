@@ -70,6 +70,7 @@ A Gradio link will appear → open it in your browser.
 
 
 🏗 Architecture Overview
+
 app.py
 │
 ├── SYSTEM_PROMPT
@@ -89,6 +90,8 @@ app.py
 │
 └── Gradio UI
     Layout, chat components, audio components, button logic
+
+    
 🧩 Key Design Decisions
 1. Groq LLM instead of OpenAI
 
