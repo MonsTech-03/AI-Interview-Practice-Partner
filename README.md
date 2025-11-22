@@ -71,25 +71,7 @@ A Gradio link will appear → open it in your browser.
 
 🏗 Architecture Overview
 
-app.py
-│
-├── SYSTEM_PROMPT
-│   Defines interviewer rules & behavior
-│
-├── call_llm()
-│   Sends conversation history to Groq API + returns model response
-│
-├── transcribe_audio()
-│   Converts mic audio to text
-│
-├── text_to_speech()
-│   Converts text to playable audio
-│
-├── interview_step()
-│   Core logic → manages state, triggers final report, routing
-│
-└── Gradio UI
-    Layout, chat components, audio components, button logic
+<img width="644" height="660" alt="image" src="https://github.com/user-attachments/assets/80246fd5-fd42-48bd-836f-9bb688dd2d87" />
 
     
 🧩 Key Design Decisions
