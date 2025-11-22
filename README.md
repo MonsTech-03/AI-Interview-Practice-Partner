@@ -1,9 +1,10 @@
-🎤 AI Interview Practice Partner — Voice + Chat
+<h1 style="font-size: 48px;">🎤 AI Interview Practice Partner — Voice + Chat</h1>
+
 
 An interactive, voice-enabled AI mock interview system built using Groq LLM, Gradio, Speech Recognition, and gTTS.
 It conducts realistic interviews, adapts to your experience level, and generates a structured Final Interview Report with ratings, strengths, weaknesses, and improvement plans.
 
-🚀 Features
+<h2 style="font-size: 48px;">🚀 Features</h2>
 
 🎙 Microphone Input — Speak your interview answers.
 
@@ -29,6 +30,9 @@ Hiring recommendation
 
 ⚡ Low-latency responses via Groq.
 
+<h2 style="font-size: 48px;">Tech Stack</h2>
+
+
 | Technology            | Purpose                         |
 | --------------------- | ------------------------------- |
 | **Python 3.10+**      | Core programming language       |
@@ -40,15 +44,17 @@ Hiring recommendation
 | **Tempfile**          | Temporary audio storage         |
 
 
-📦 Installation & Setup
+<h2 style="font-size: 48px;">📦 Installation & Setup</h2>
 
 Follow these steps to run the AI Interview Partner locally.
 
-1️⃣ Clone the Repository
+<h3 style="font-size: 48px;">1️⃣ Clone the Repository</h3>
 git clone https://github.com/YOUR_USERNAME/YOUR_REPOSITORY.git
 cd YOUR_REPOSITORY
 
-2️⃣ Install Dependencies
+<h3 style="font-size: 48px;">2️⃣ Install Dependencies
+</h3>
+
 pip install -r requirements.txt
 
 
@@ -56,25 +62,29 @@ If you don’t have a requirements file, use:
 
 pip install groq gradio speechrecognition gtts soundfile
 
-3️⃣ Set Your API Key
+<h3 style="font-size: 48px;">3️⃣ Set Your API Key
+</h3>
 
 Create a .env file or export the key in your terminal:
 
 export GROQ_API_KEY="your_api_key_here"
 
-4️⃣ Run the App
+<h3 style="font-size: 48px;">4️⃣ Run the App
+</h3>
 python app.py
 
 
 A Gradio link will appear → open it in your browser.
 
 
-🏗 Architecture Overview
+<h2 style="font-size: 48px;">🏗 Architecture Overview</h2>
+
 
 <img width="644" height="660" alt="image" src="https://github.com/user-attachments/assets/80246fd5-fd42-48bd-836f-9bb688dd2d87" />
 
     
-🧩 Key Design Decisions
+<h2 style="font-size: 48px;">🧩 Key Design Decisions</h2>
+
 1. Groq LLM instead of OpenAI
 
 Very low latency → perfect for live interaction
@@ -127,31 +137,7 @@ Google SR is lightweight & perfect for short interview answers
 Reasoning:
 Compatible with CPU-only machines (perfect for students & Colab users).
 
-🎮 Usage Guide
 
-Select:
-
-Interview Role
-
-Experience Level
-
-Whether you want AI voice
-
-Answer questions through:
-
-Microphone
-
-OR typing
-
-Continue answering until interviewer asks:
-
-“Shall we wrap up?”
-
-Say or type:
-
-“yes”, “okay”, “let's stop”, “wrap up”
-
-Receive your Final Interview Report.
 
 📝 Example Final Report
 ====================
