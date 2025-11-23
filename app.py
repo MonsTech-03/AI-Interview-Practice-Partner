@@ -93,7 +93,7 @@ def interview_step(text_input, audio_input, history, role, level, voice_reply):
 
     user_agreed_to_stop = any(word in user_msg.lower() for word in wrap_up_phrases)
 
-    if bot_asked_to_stop and user_agreed_to_stop:
+    if bot_asked_to_stop or user_agreed_to_stop:
 
         final_feedback_prompt = """
 The interview is now over. Provide a structured final evaluation.
